@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat";
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  text-align: center;
+}
+
+header h2 {
+  letter-spacing: 0.3vw;
+  color: #f8862e;
+  font-size: 2.5vw;
+  padding: 1vh;
+}
+
+.subhead {
+  width: 100vw;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 1.5vw 0 1vh 0;
+  margin-top: 2vh;
+}
+
+.btn_container {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.population_btn,
+.language_btn {
+  background-color: #f8862e;
+  text-transform: uppercase;
+  border: none;
+  padding: 1vh 1vw;
+}
+
+.subhead p {
+  margin-top: 1vh;
+}
+
+.population_container,
+.language_container {
+  display: none;
+  width: 100vw;
+  justify-content: center;
+  align-items: stretch;
+  gap: 5vw;
+  padding-top: 4vh;
+  /* margin: 0 2vw 0 2vw; */
+}
+
+.country_names,
+.population,
+.language_names,
+.language_number {
+  display: flex;
+  flex-direction: column;
+  gap: 5.1%;
+}
+.graph_details {
+  display: flex;
+  gap: 1vw;
+}
+
+.population_graph,
+.population_graph2 {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9vh;
+  align-self: flex-start;
+}
+
+.graph_div {
+  max-width: 100%;
+  padding: 1rem .5rem;
+  background-color: #f8862e;
+}
